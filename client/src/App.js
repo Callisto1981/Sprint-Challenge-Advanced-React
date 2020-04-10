@@ -2,8 +2,9 @@ import React from "react";
 import "./App.css";
 import axios from "axios";
 import PlayerCard from "./Components/PlayerCard";
+import Navbar from "./Components/NavBar";
 
-class App extends React.Component() {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -27,8 +28,11 @@ class App extends React.Component() {
   render() {
     return (
       <div className="App">
-        <header className="App-header"></header>
-        <PlayerCard playerData={this.state.players} />
+        <header className="App-header">
+          PLAYERS
+          <Navbar />
+          <PlayerCard playerData={this.state.players} />
+        </header>
       </div>
     );
   }
