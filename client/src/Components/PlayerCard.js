@@ -6,3 +6,4 @@ const [player, setPlayer] = useState();
 
     return
 }
+export defaul Player;
