@@ -8,9 +8,10 @@ const NavBar = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <nav className="navbar">
+    <nav id="navbar" className="navbar">
       <div className="dark-mode__toggle">
         <button
+          id="button"
           onClick={toggleMode}
           className={darkMode ? "toggle toggled" : "toggle"}
         >
