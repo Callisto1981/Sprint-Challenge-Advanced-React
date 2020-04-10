@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import axios from "axios";
 import PlayerCard from "./Components/PlayerCard";
-import Navbar from "./Components/NavBar";
+import NavBar from "./Components/NavBar";
 
 class App extends React.Component {
   constructor() {
@@ -30,7 +30,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           PLAYERS
-          <Navbar />
+          <NavBar />
           <PlayerCard playerData={this.state.players} />
         </header>
       </div>
