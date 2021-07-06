@@ -23,9 +23,21 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+class components renders and returns a React element vs a function that returns plain javascript.
+
 - [ ] Name three lifecycle methods and their purposes.
+
+ComponentDidMount which is the component appearing on the screen. ComponentDidUpdate which is the component updating/rendering state.
+ComponentWillUnmount which is the component disappearing off screen and not running.
+
 - [ ] What is the purpose of a custom hook?
+
+Custom hooks are so that you don't have to use classes and they are reusable being pulled from the same files.
+
 - [ ] Why is it important to test our apps?
+
+To make sure it isn't broken and that users wont have a bad experience creating a better app over all.
 
 ## Project Set Up
 
@@ -44,7 +56,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
